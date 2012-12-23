@@ -6,6 +6,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
+$routes = include_once 'routing.php';
 return array(
 
     'basePath' => dirname( __FILE__ ) . DIRECTORY_SEPARATOR . '..',
@@ -65,16 +66,13 @@ return array(
             'allowAutoLogin' => true,
         ),
         // uncomment the following to enable URLs in path-format
-        /*
+        
         'urlManager'=>array(
             'urlFormat'=>'path',
-            'rules'=>array(
-                '<controller:\w+>/<id:\d+>'=>'<controller>/view',
-                '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-            ),
+            'rules'=> $routes,
+            'showScriptName'=>false,
+            'caseSensitive'=>false,
         ),
-        */
         'db' => array(
             'connectionString' => 'mysql:host=localhost;dbname=taskmanager',
             'emulatePrepare' => true,
