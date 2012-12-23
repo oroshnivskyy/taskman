@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="be5ea315-2994-4fc0-b714-7585e59f85f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="taskman.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,6 +11,7 @@
     <file path="/main.php" changelist="be5ea315-2994-4fc0-b714-7585e59f85f4" time="1356285877371" ignored="false" />
     <file path="/routing.php" changelist="be5ea315-2994-4fc0-b714-7585e59f85f4" time="1356285884080" ignored="false" />
     <file path="/index.php" changelist="be5ea315-2994-4fc0-b714-7585e59f85f4" time="1356286142936" ignored="false" />
+    <file path="/.gitignore" changelist="be5ea315-2994-4fc0-b714-7585e59f85f4" time="1356286818456" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
       <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="201" selection-end="201" vertical-scroll-proportion="0.22950819">
+            <state line="7" column="20" selection-start="198" selection-end="198" vertical-scroll-proportion="0.22950819">
               <folding />
             </state>
           </provider>
@@ -74,6 +76,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -371,9 +374,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="55" selection-end="55" vertical-scroll-proportion="0.09836066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="201" selection-end="201" vertical-scroll-proportion="0.22950819">
+        <state line="7" column="20" selection-start="198" selection-end="198" vertical-scroll-proportion="0.22950819">
           <folding />
         </state>
       </provider>
